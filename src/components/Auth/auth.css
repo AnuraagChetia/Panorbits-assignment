@@ -1,0 +1,60 @@
+body {
+  /* background-image: url("../../assets/bg.jpg"); */
+  background-color: rgb(255, 255, 255);
+  background-size: cover; /* Adjust how the image covers the background */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+.auth {
+  align-items: center;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.title {
+  padding: 30px 150px;
+  font-weight: 600;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
+  background-color: rgb(240, 240, 240);
+}
+.userList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.userList::-webkit-scrollbar {
+  width: 7px;
+}
+
+.userList::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.userList::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.userLi {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.userLi:hover {
+  background-color: rgb(197, 197, 197);
+}
+.userLi:last-child {
+  border-bottom: none;
+}
+.pfp {
+  width: 20px;
+  border-radius: 50%;
+}

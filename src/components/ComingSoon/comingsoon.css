@@ -1,0 +1,10 @@
+.comingsoon {
+  color: black;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+  font-size: xx-large;
+  font-weight: 700;
+  color: gray;
+}

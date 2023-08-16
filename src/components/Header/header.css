@@ -1,0 +1,72 @@
+.headerContainer {
+  display: flex;
+  height: fit-content;
+  border-bottom: 1px solid rgb(170, 166, 166);
+  padding: 20px 50px;
+  color: black;
+  justify-content: space-between;
+  width: 100%;
+}
+.header {
+  font-weight: bold;
+  color: rgb(83, 80, 80);
+}
+.rightProf {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+.prof {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.dropdown {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 10rem;
+  right: 15rem;
+  z-index: 1;
+  background-color: white;
+  /* border: 1px solid gray; */
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.199);
+  padding: 20px;
+  border-radius: 10%;
+  flex-direction: column;
+  gap: 20px;
+}
+.noDropdown {
+  display: none;
+}
+.dropdownpfp {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.userDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  padding: 2rem 5rem 0 5rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+.username {
+  color: rgba(128, 128, 128, 0.719);
+  margin-bottom: 10px;
+}
+.dropdownUser {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+  width: 100%;
+}
+
+.signout {
+  width: fit-content;
+  background-color: brown;
+}

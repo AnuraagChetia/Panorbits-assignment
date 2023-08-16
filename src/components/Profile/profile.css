@@ -1,0 +1,58 @@
+.profileContainer {
+  display: flex;
+  color: black;
+}
+.myProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-weight: 500;
+}
+.dp {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.tab{
+  color: gray;
+  font-weight: 500;
+}
+.personal {
+  list-style: none;
+  border-bottom: 1px solid rgba(199, 196, 196, 0.801);
+  margin: 20px;
+  padding: 0;
+}
+.personal li {
+  padding: 10px;
+  text-align: center;
+}
+.company {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+.company li {
+  padding: 10px;
+  text-align: center;
+}
+.right {
+  display: flex;
+  margin: 20px;
+}
+.head {
+  float: left;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style: none;
+  margin-top: 40px;
+  padding: 0;
+}
+.address li {
+  padding: 10px;
+}
