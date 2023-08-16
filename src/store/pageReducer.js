@@ -4,7 +4,7 @@ const pageSlice = createSlice({
   name: "page",
   
   initialState: {
-    page: "profile",
+    page: "Profile",
   },
 
   reducers: {
